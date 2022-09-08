@@ -20,12 +20,10 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <TextView
-            android:id="@+id/textView"
             style="@style/Thumbnails"
             android:background="@drawable/one" />
 
         <TextView
-            android:id="@+id/textView2"
             style="@style/Thumbnails"
             android:background="@drawable/two"
             />
@@ -52,17 +50,14 @@
             android:background="@drawable/three" />
 
         <TextView
-            android:id="@+id/textView4"
             style="@style/Thumbnails"
             android:background="@drawable/four" />
 
         <TextView
-            android:id="@+id/textView5"
             style="@style/Thumbnails"
             android:background="@drawable/five" />
 
         <TextView
-            android:id="@+id/textView6"
             style="@style/Thumbnails"
             android:background="@drawable/six" />
     </GridLayout>
