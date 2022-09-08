@@ -176,5 +176,9 @@
         <TextView
             style="@style/Thumbnails"
             android:background="@drawable/six" />
+
+
+
     </GridLayout>
+
 </FrameLayout>
