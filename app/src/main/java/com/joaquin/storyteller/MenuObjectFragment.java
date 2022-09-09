@@ -37,7 +37,11 @@ public class MenuObjectFragment extends Fragment {
             startActivity(intent);
         });
         Button addButton = parentView.findViewById(R.id.add_button);
-        addButton.setOnClickListener(v -> Toast.makeText(getActivity(), "BUILDME: Call to AddPicturesActivity, which is an interface to add pictures. ", Toast.LENGTH_LONG).show());
+        addButton.setOnClickListener(v -> {
+            Toast.makeText(getActivity(), "BUILDME: Call to AddPicturesActivity, which is an interface to add pictures. ", Toast.LENGTH_LONG).show();
+            Intent intent= new Intent(context, AddPictureActivity.class);
+            startActivity(intent);
+        });
 
         return parentView;
     }
