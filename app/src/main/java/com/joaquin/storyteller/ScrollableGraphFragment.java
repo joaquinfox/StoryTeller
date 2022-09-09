@@ -49,6 +49,7 @@ public class ScrollableGraphFragment extends Fragment {
     }
 
     private void onPictureClick(View view) {
-        Toast.makeText(this.getActivity(), "picture click", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this.getActivity(), "BUILDME: Selecting images then clicking a \"done\" button groups them together and " +
+                "navigates to a BuildSlideshowActivity.", Toast.LENGTH_LONG).show();
     }
 }

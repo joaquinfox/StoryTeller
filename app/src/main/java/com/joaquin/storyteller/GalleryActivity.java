@@ -21,6 +21,6 @@ private static final String LOG = "LOG";
     public void buildSlideshow(){
         Log.i(LOG, "TEST");
         Toast.makeText(this, "BUILDME: Clicking will call BuildSlideShowActivity where" +
-                "user defines slideshow settings.", Toast.LENGTH_LONG).show();
+                " user defines slideshow settings.", Toast.LENGTH_LONG).show();
     }
 }
