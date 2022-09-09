@@ -21,7 +21,7 @@
 
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/main_menu"
-        android:name="com.joaquin.storyteller.MainMenuFragment"
+        android:name="com.joaquin.storyteller.MenuObjectFragment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"

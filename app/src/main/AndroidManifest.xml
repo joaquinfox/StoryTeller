@@ -14,6 +14,9 @@
         android:theme="@style/Theme.StoryTeller"
         tools:targetApi="31">
         <activity
+            android:name=".SlideshowListActivity"
+            android:exported="false" />
+        <activity
             android:name=".GalleryActivity"
             android:exported="true">
             <intent-filter>
